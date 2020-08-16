@@ -1,8 +1,3 @@
-var webURL = 'data/category-success.json';
-var webURL2 = 'data/category-profitloss.json';
-var webURL3 = 'data/category-number.json';
-var webURL4 = 'data/category-hub.json';
-var webURL5 = 'data/employment.json';
 var webURL6 = 'data/super-contribution.json';
 
 var chart1;
