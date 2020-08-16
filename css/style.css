@@ -1,0 +1,60 @@
+/**
+* add Custom style here
+*
+*/
+.charts
+{
+    /*display: none ;*/
+    visibility: hidden;
+   
+    
+}
+.show{
+    /*display: block !important;*/
+    visibility: visible;
+    transition: all 0.5s ease-in-out;
+}
+
+h1,h2,h3,h4,h5,span,p,body,.gm-style {
+    font-family: 'Gotham', sans-serif;
+}
+
+.danger
+{
+    background-color:#d7153a;
+}
+.good
+{
+    background-color:#0a7cb9;
+}
+
+.jumbotron
+{
+    background-color: #F4F7F9;
+    color: #002664;
+}
+
+.gm-style .gm-style-iw {
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+@font-face {
+  font-family: 'Gotham';
+  src: url("./fonts/Gotham-Book.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham';
+  src: url("./fonts/Gotham-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Gotham';
+  src: url("../fonts/Gotham-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}

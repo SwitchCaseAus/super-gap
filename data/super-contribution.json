@@ -1,0 +1,212 @@
+[
+        {
+            "Enterprise_industry": "Agriculture, Forestry, Fishing",
+            "Super_Contribution": "6380.72",
+            "data":[7.84, 6.11, 4.70, 3.76],
+            "female":5501.20,
+            "male":6632.36,
+            "femaleData": [9.08,7.08,5.45,4.36],
+            "maleData": [7.53,5.88,4.52,3.61],
+            "jobsLost":6314
+        },
+        {
+            "Enterprise_industry": "Mining",
+            "Super_Contribution": "7656.36",
+            "data":[6.53, 5.09, 3.92, 3.13],
+            "female": 10685.64,
+            "male": 7493.86,
+            "femaleData": [4.67,3.64,2.8,2.24],
+            "maleData": [6.67,5.2,4,3.2],
+            "jobsLost":11
+        },
+        {
+            "Enterprise_industry": "Manufacturing",
+            "Super_Contribution": "4375.78",
+            "data":[11.43, 8.91, 6.86, 5.48],
+            "female": 3377.29,
+            "male": 4853.08,
+            "femaleData": [14.8,11.54,8.88,7.1],
+            "maleData": [10.3,8.03,6.18,4.94],
+            "jobsLost":2317
+        },
+        {
+            "Enterprise_industry": "Electricity, Gas, Water and Waste Services",
+            "Super_Contribution": "4762.83",
+            "data":[10.50, 8.19, 6.30, 5.04],
+            "female": 3985.59,
+            "male": 4854.19,
+            "femaleData": [12.54,9.78,7.52,6.02],
+            "maleData": [10.3,8.03,6.18,4.94],
+            "jobsLost":445
+        },
+        {
+            "Enterprise_industry": "Construction",
+            "Super_Contribution": "4799.12",
+            "data":[10.42, 8.13, 6.25, 5.00],
+            "female": 4385.32,
+            "male": 4812.95,
+            "femaleData": [11.4,8.89,6.84,5.47],
+            "maleData": [10.38,8.1,6.23,4.98],
+            "jobsLost":11260
+        },
+        {
+            "Enterprise_industry": "Wholesale Trade",
+            "Super_Contribution": "4705.81",
+            "data":[10.63, 8.29, 6.38, 5.10],
+            "female": 4065.78,
+            "male": 5019.00,
+            "femaleData": [12.29,9.59,7.37,5.9],
+            "maleData": [9.96,7.77,5.97,4.78],
+            "jobsLost":244
+        },
+        {
+            "Enterprise_industry": "Retail Trade",
+            "Super_Contribution": "4454.41",
+            "data":[11.22, 8.76, 6.73, 5.39],
+            "female": 3805.16,
+            "male": 5498.23,
+            "femaleData": [13.14,10.24,7.88,6.3],
+            "maleData": [9.09,7.09,5.45,4.36],
+            "jobsLost":3268
+        },
+        {
+            "Enterprise_industry": "Accommodation and Food Services",
+            "Super_Contribution": "3459.02",
+            "data":[14.45, 11.27, 8.67, 6.94],
+            "female": 3113.53,
+            "male": 3832.73,
+            "femaleData": [16.05,12.52,9.63,7.7],
+            "maleData": [13.04,10.17,7.82,6.26],
+            "jobsLost":6329
+        },
+        {
+            "Enterprise_industry": "Transport, Postal and Warehousing",
+            "Super_Contribution": "3754.02",
+            "data":[13.32, 10.39, 7.99, 6.39],
+            "female": 3385.15,
+            "male": 3785.24,
+            "femaleData": [14.77,11.52,8.86,7.08],
+            "maleData": [13.2,10.3,7.92,6.34],
+            "jobsLost":10517
+        },
+        {
+            "Enterprise_industry": "Information Media and Telecommunications",
+            "Super_Contribution": "4986.26",
+            "data":[10.03, 7.82, 6.02, 4.81],
+            "female": 4813.61,
+            "male": 5062.90,
+            "femaleData": [10.38,8.1,6.23,4.98],
+            "maleData": [9.87,7.7,5.92,4.74],
+            "jobsLost":1458
+        },
+        {
+            "Enterprise_industry": "Financial and Insurance Services",
+            "Super_Contribution": "8018.13",
+            "data":[6.24, 4.86, 3.74, 2.99],
+            "female": 5501.11,
+            "male": 9032.77,
+            "femaleData": [9.08,7.08,5.45,4.36],
+            "maleData": [5.53,4.31,3.32,2.65],
+            "jobsLost":534
+        },
+        {
+            "Enterprise_industry": "Rental, Hiring and Real Estate Services",
+            "Super_Contribution": "6610.83",
+            "data":[7.56, 5.90, 4.54, 3.63],
+            "female": 5315.25,
+            "male": 7450.66,
+            "femaleData": [9.4,7.33,5.64,4.51],
+            "maleData": [6.71,5.23,4.02,3.22],
+            "jobsLost":2400
+        },
+        {
+            "Enterprise_industry": "Professional, Scientific, Technical Services",
+            "Super_Contribution": "7308.30",
+            "data":[6.84, 5.34, 4.10, 3.28],
+            "female": 5661.05,
+            "male":8717.76,
+            "femaleData": [8.83,6.88,5.29,4.23],
+            "maleData": [5.73,4.47,3.44,2.75],
+            "jobsLost":8500
+        },
+        {
+            "Enterprise_industry": "Administrative and Support Services",
+            "Super_Contribution": "3496.02",
+            "data":[14.30, 11.16, 8.58, 6.86],
+            "female": 3142.48,
+            "male": 3811.66,
+            "femaleData": [15.91,12.41,9.54,7.63],
+            "maleData": [13.11,10.23,7.87,6.29],
+            "jobsLost":7929
+        },
+        {
+            "Enterprise_industry": "Public Administration and Safety",
+            "Super_Contribution": "4998.89",
+            "data":[10.00, 7.80, 6.00, 4.80],
+            "female": 4689.01,
+            "male": 5073.11,
+            "femaleData": [10.66,8.31,6.39,5.11],
+            "maleData": [9.85,7.68,5.91,4.73],
+            "jobsLost":5
+        },
+        {
+            "Enterprise_industry": "Education and Training",
+            "Super_Contribution": "4679.47",
+            "data":[10.68, 8.33, 6.41, 5.13],
+            "female": 4312.93,
+            "male": 5212.15,
+            "femaleData": [11.59,9.04,6.95,5.56],
+            "maleData": [9.59,7.48,5.75,4.6],
+            "jobsLost":3575
+        },
+        {
+            "Enterprise_industry": "Health Care and Social Assistance",
+            "Super_Contribution": "12709.41",
+            "data":[3.93, 3.07, 2.36, 1.89],
+            "female": 7414.52,
+            "male": 23352.23,
+            "femaleData": [6.74,5.25,4.04,3.23],
+            "maleData": [2.14,1.67,1.28,1.02],
+            "jobsLost":4384
+        },
+        {
+            "Enterprise_industry": "Arts and Recreation Services",
+            "Super_Contribution": "4837.90",
+            "data":[10.34, 8.06, 6.20, 4.96],
+            "female": 4362.89,
+            "male": 5368.54,
+            "femaleData": [11.46,8.93,6.87,5.5],
+            "maleData": [9.31,7.26,5.58,4.47],
+            "jobsLost":19371
+        },
+        {
+            "Enterprise_industry": "Other Services",
+            "Super_Contribution": "3827.71",
+            "data":[13.06, 10.19, 7.84, 6.27],
+            "female": 3286.90,
+            "male": 4545.49,
+            "femaleData": [15.21,11.86,9.12,7.3],
+            "maleData": [10.99,8.57,6.59,5.27],
+            "jobsLost":13507
+        },
+        {
+            "Enterprise_industry": "Other individuals",
+            "Super_Contribution": "6157.41",
+            "data":[8.12, 6.33, 4.87, 3.90],
+            "female": 5004.71,
+            "male": 7305.04,
+            "femaleData": [9.99,7.79,5.99,4.79],
+            "maleData": [6.84,5.33,4.1,3.28],
+            "jobsLost":1550280
+        },
+        {
+            "Enterprise_industry": "Other",
+            "Super_Contribution": "6212.14",
+            "data":[8.05, 6.28, 4.83, 3.86],
+            "female": 5224.17,
+            "male": 6822.78,
+            "femaleData": [9.57,7.46,5.74,4.59],
+            "maleData": [7.32,5.71,4.39,3.51],
+            "jobsLost":342
+        }
+    ]

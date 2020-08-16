@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+        <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <!--<link href="https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap" rel="stylesheet">-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+      <script src="https://code.highcharts.com/modules/accessibility.js"></script>
+     
+<script src="https://code.highcharts.com/highcharts-more.js"></script>
+
+<nav class="navbar" style="
+    background: #002664;
+">
+      <div class="container">
+        <a class="navbar-brand" href="#" style="
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+">
+    Project Super-Gap
+  </a>
+      </div>
+    </nav>
+    
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<div class="" style="
+    height: 520px;
+    background-image: url(./images/Covid-19_Finance_Blog.png);
+"></div>
+
+<div class="container">  
+<div class="jumbotron shadow my-4 p-5">
+    <h1 class="display-6" style="
+    font-size: 38px;
+">Impact of COVID-19: </h1>
+  <p class="lead">Since outbreak of this deadly virus, economies and industries have been left scrambling.They have been impacted so badly that unemployment has been on the decade high,
+    which has left people with limited or no options but to withdraw super early, in order to overcome this unexpected turn of events.</p>
+     <ul class="lead my-3" style="
+        list-style: inside;
+    ">
+          We are highlighting the assistance required by each industry, in terms of:
+    
+            	<li>number of jobs lost (unemployment);</li>
+            	<li>highlighting gender disparity in superannuation,and;</li>
+            	<li>support industries and indviduals can avail from the government.</li>
+      </ul>
+</div>
+
+
+
+    <div class="input-group my-5 jumbotron shadow" style="border:1px solid #e2e2e2;border-top:10px solid #002664;height: 160px; ">
+<h2 class="col-md-6 disabled"> Select a broad industry sector</h2>
+  <select class="col-md-6 custom-select" id="category">
+    <option value="All">All</option>
+    <option value="Agriculture, Forestry, Fishing" >Agriculture, Forestry, Fishing</option>
+    <option value="Accommodation and Food Services">Accommodation and Food Services</option>
+<option value="Arts and Recreation Services">Arts and Recreation Services</option>
+<option value="Construction">Construction</option>
+<option value="Education and Training">Education and Training</option>
+<option value="Financial and Insurance Services">Financial and Insurance Services</option>
+<option value="Health Care and Social Assistance">Health Care and Social Assistance</option>
+<option value="Information Media and Telecommunications">Information Media and Telecommunications</option>
+<option value="Manufacturing">Manufacturing</option>
+<option value="Professional, Scientific, Technical Services">Professional, Scientific, Technical Services</option>
+<option value="Rental, Hiring and Real Estate Services">Rental, Hiring and Real Estate Services</option>
+<option value="Retail Trade">Retail Trade</option>
+<option value="Transport, Postal and Warehousing">Transport, Postal and Warehousing</option>
+<option value="Wholesale Trade">Wholesale Trade</option>
+<option value="Other">Other</option>
+  </select>
+</div>
+
+<div class="charts">
+    <h3 id="start">Impact of COVID-19 on employment</h3>
+    <div class="row">
+        <div class="col-md-6  my-4 text-center">
+            <div class="card shadow" style="min-height: 250px;">
+            <div class="card-header text-center text-white" style="background-color:#002664; min-height: 100px;"><h3>Average super contributed per annumn</h3></div>
+            <div class="card-body text-center text-white " >
+              
+            <h1 id="avgSuper"></h1></div>
+             <div class="card-footer text-muted text-center"><small>Based on Conexus Institute, Actuaries Institute and Super Consumers and ATO data</small></div>
+            </div>
+        </div>
+        <div class="col-md-6  my-4 text-center">
+            <div class="card shadow" style="min-height: 250px;">
+            <div class="card-header text-center text-white" style="background-color:#002664;min-height: 100px;display: flex;align-items: center;justify-content: center;">
+                <h3> Total number of jobs lost</h3></div>
+            <div class="card-body text-center text-white " >
+              
+            <h1 id="jobsLost"></h1></div>
+             <div class="card-footer text-muted text-center"><small>Based on afr.com and ATO data</small></div>
+            </div>
+        </div>
+        <div class="col-md-12 shadow my-4" id="reduction"></div>
+        <div class="col-md-12 shadow my-4" id="ageWork"></div>
+        <div class="genderChartDiv col-md-12 shadow" style="
+    border: 2px solid #002664;
+    padding: 25px;
+">
+            <div class="row">
+
+                  <div class="col-sm-6">
+                    <h2>
+                      Super gap
+                    </h2>
+                    <p>
+                     The current gender pay gap in Australia is 15.3% (as calculated by the Workplace Gender Equality Agency). COVID-19 has worsened this gap as women tend to work in more casual and less paying roles . Early withdrawal of Super places Women in a more disadvantageous position as they will now need to work much more than Men to regain the same amount of lost Super.
+                    </p>
+                  </div>
+                  <div class="col-sm-6">
+                    <img src="./images/genderGap.png" class="img img-fluid">
+                  </div>
+                </div>
+            <div class="col-md-12 my-4" id="gender"></div>
+            <div class="col-md-12 my-4" id="comparisonContianer"></div>
+        </div>
+        
+        
+        <p class="jumbotron col-12 shadow my-3">
+            Government is providing various measure for industry assistance.
+            To find out more you can visit:- <a href="https://www.business.gov.au/grants-and-programs">Grants and programs</a>
+        </p>
+        
+    </div>
+    
+</div>
+
+<nav class="navbar   navbar-light bg-dark">
+  <div class="container"><a class="navbar-brand text-light" href="#">Alpha Release 1.0</a><
+  
+   <img src="./images/swi_logo_white.svg" / style="width:15%">
+ 
+  </div>
+</nav>
+
+<script type="text/javascript" src="js/script.js"></script>
+<script    type="text/javascript" src="js/theme.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAY3RNuFX1DU6iMTPeQMbpC9Xx2wA74pgs" async defer></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" href="css/style.css" type="text/css" />
+
+
+    
+</html>
